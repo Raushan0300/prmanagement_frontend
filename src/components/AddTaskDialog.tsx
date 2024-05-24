@@ -56,7 +56,6 @@ const AddTaskDialog = (props: any) => {
         <option value="inProgress">In Progress</option>
         <option value="completed">Completed</option>
       </select>
-      <div>{status}</div>
       <button
         className="addBtn"
         onClick={() => {
