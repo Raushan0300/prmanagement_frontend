@@ -1,0 +1,55 @@
+.dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    z-index: 2;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.taskInput {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.taskStatus {
+    display: block;
+    width: calc(80% + 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+.addBtn{
+    background-color: #2563EB;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .dialog {
+        width: 80%;
+    }
+    
+}
